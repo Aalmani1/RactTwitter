@@ -25,7 +25,7 @@ function Tweets() {
         return (
           <div class="tweets">
             <h2>User Name : {item.userName}</h2>
-            <img src={item.img} />
+            <img src={img} />
             <h3>Tweets: </h3>
 
             {item.tweets.map((tweets) => {
@@ -41,11 +41,3 @@ function Tweets() {
 }
 
 export default Tweets;
-
-// <div class="tweets">
-// <h2>User Name : {user.userName}</h2>
-// <img src={user.img} />
-// <h3>Tweets: </h3>
-// <li>{user.tweets}</li>
-// <hr></hr>
-// </div>
